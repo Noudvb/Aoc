@@ -1,5 +1,3 @@
-import numpy as np
-
 with open("input.txt") as f:
     info = f.read().splitlines()
 
