@@ -20,6 +20,7 @@ def cal_score(arr, part2 = False):
                     break
     return score
 
+
 print("Part 1: ", cal_score(info))
 
 print("Part 2: ", cal_score(info, True))
