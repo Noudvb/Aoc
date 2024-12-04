@@ -3,7 +3,7 @@ with open("Input.txt") as f:
 
 grid = []
 for line in info:
-    grid.append([char for char in line])
+    grid.append([str(char) for char in line])
 
 count1 = 0
 for i in range(len(grid)):
